@@ -1,0 +1,3 @@
+integer (TypeIntC) {
+  description (__DESCRIPTION__)
+}

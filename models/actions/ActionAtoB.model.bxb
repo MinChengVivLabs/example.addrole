@@ -1,0 +1,11 @@
+action (ActionAtoB) {
+  description (__DESCRIPTION__)
+  type (Calculation)
+  collect {
+    input (aaa) {
+      type (TypeIntA)
+      min (Required) max (One)
+    }
+  }
+  output (TypeIntB)
+}

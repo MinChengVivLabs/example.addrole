@@ -1,0 +1,20 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (ActionAtoB) {
+      accepted-inputs (aaa)
+      local-endpoint ("Double.js")
+    }
+    action-endpoint (ActionAtoC) {
+      accepted-inputs (aaa)
+      local-endpoint ("Triple.js")
+    }
+    action-endpoint (ActionBtoRslt) {
+      accepted-inputs (bbb)
+      local-endpoint ("Times5.js")
+    }
+    action-endpoint (ActionCtoRslt) {
+      accepted-inputs (ccc) 
+      local-endpoint ("Times8.js")
+    }
+  }
+}

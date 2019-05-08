@@ -1,0 +1,11 @@
+action (ActionBtoRslt) {
+  description (__DESCRIPTION__)
+  type (Calculation)
+  collect {
+    input (bbb) {
+      type (TypeIntB)
+      min (Required) max (One)
+    }
+  }
+  output (TypeIntRslt)
+}

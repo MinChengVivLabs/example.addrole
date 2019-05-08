@@ -1,0 +1,3 @@
+integer (TypeIntB) {
+  description (__DESCRIPTION__)
+}

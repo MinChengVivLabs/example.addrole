@@ -1,0 +1,11 @@
+action (ActionCtoRslt) {
+  description (__DESCRIPTION__)
+  type (Calculation)
+  collect {
+    input (ccc) {
+      type (TypeIntC)
+      min (Required) max (One)
+    }
+  }
+  output (TypeIntRslt)
+}
